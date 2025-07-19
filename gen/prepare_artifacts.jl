@@ -16,6 +16,7 @@ using SHA
 const SCRIPT_DIR = @__DIR__
 const PROJECT_DIR = dirname(SCRIPT_DIR)
 const DATA_DIR = joinpath(SCRIPT_DIR, "data")
+const TARBALLS_DIR = joinpath(SCRIPT_DIR, "tarballs")
 const ARTIFACTS_TOML = joinpath(PROJECT_DIR, "Artifacts.toml")
 const PROJECT_TOML = joinpath(PROJECT_DIR, "Project.toml")
 const TEMP_DIR = mktempdir()
@@ -44,8 +45,9 @@ function create_artifact_tarball(data_dir::String, artifact_name::String)
         end
     end
     
-    # Create tarball
-    tarball_path = joinpath(SCRIPT_DIR, "$(artifact_name).tar.gz")
+    # Create tarball in tarballs directory
+    mkpath(TARBALLS_DIR)
+    tarball_path = joinpath(TARBALLS_DIR, "$(artifact_name).tar.gz")
     Tar.create(artifact_temp, tarball_path)
     
     return tarball_path

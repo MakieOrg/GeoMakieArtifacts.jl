@@ -2,7 +2,7 @@
 
 # Data and artifacts
 gen/data/
-gen/*.tar.gz
+gen/tarballs/
 
 # Temporary files
 .DS_Store

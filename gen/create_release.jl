@@ -16,6 +16,7 @@ using TOML
 
 const SCRIPT_DIR = @__DIR__
 const PROJECT_DIR = dirname(SCRIPT_DIR)
+const TARBALLS_DIR = joinpath(SCRIPT_DIR, "tarballs")
 const ARTIFACTS_TOML = joinpath(PROJECT_DIR, "Artifacts.toml")
 const PROJECT_TOML = joinpath(PROJECT_DIR, "Project.toml")
 
@@ -72,10 +73,14 @@ end
 
 # Find tarball files
 function find_tarballs()
+    if !isdir(TARBALLS_DIR)
+        return String[]
+    end
+    
     tarballs = String[]
-    for file in readdir(SCRIPT_DIR)
+    for file in readdir(TARBALLS_DIR)
         if endswith(file, ".tar.gz")
-            push!(tarballs, joinpath(SCRIPT_DIR, file))
+            push!(tarballs, joinpath(TARBALLS_DIR, file))
         end
     end
     return tarballs
