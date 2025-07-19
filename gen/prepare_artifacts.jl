@@ -6,7 +6,7 @@
 # This script expects data to be downloaded into subdirectories of gen/data/
 
 using Pkg
-Pkg.activate(dirname(@__DIR__))
+Pkg.activate((@__DIR__))
 
 using Pkg.Artifacts: bind_artifact!, create_artifact
 using TOML
@@ -106,25 +106,11 @@ function add_local_artifact!(
     # Check for .lazy file to determine if artifact should be lazy
     is_lazy = has_lazy_marker(data_dir)
     
-    # Create artifact from the original data directory
+    # Create artifact from the tarball to ensure consistency
     git_tree_sha1 = create_artifact() do artifact_dir
-        # Copy all files from data directory to artifact directory (except .lazy files)
-        for (root, dirs, files) in walkdir(data_dir)
-            rel_path = relpath(root, data_dir)
-            dest_dir = joinpath(artifact_dir, rel_path)
-            mkpath(dest_dir)
-            
-            for file in files
-                # Skip .lazy files
-                if endswith(file, ".lazy")
-                    continue
-                end
-                
-                src = joinpath(root, file)
-                dst = joinpath(dest_dir, file)
-                cp(src, dst)
-            end
-        end
+        # Extract the tarball we just created into the artifact directory
+        # This ensures the artifact content matches exactly what will be downloaded
+        run(`tar -xzf $tarball_path -C $artifact_dir --strip-components=1`)
     end
     
     # Get GitHub URL for this artifact
