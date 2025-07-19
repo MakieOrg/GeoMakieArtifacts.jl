@@ -1,9 +1,23 @@
 name = "GeoMakieArtifacts"
 uuid = "c06dcbe2-c11f-4421-b8ce-2adf73295f27"
 authors = ["Anshul Singhvi <anshulsinghvi@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "1.0.0"
+
+[deps]
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+Tar = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
 [compat]
+Artifacts = "1"
+ArtifactUtils = "0.2"
+CodecZlib = "0.7"
+LazyArtifacts = "1"
+Tar = "1"
+TOML = "1"
 julia = "1.6.7"
 
 [extras]

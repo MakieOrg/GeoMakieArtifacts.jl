@@ -1,1 +1,15 @@
 /Manifest*.toml
+
+# Data and artifacts
+gen/data/
+gen/*.tar.gz
+
+# Temporary files
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Editor directories
+.vscode/
+.idea/
