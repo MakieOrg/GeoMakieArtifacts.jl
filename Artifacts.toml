@@ -3,7 +3,7 @@ git-tree-sha1 = "85defa97d9ab154e66e3ead597b95dff2beae9df"
 lazy = true
 
     [[blue_marble_regular_april.download]]
-    sha256 = "2b4a249923e2781f2971a7dcbb61be42eeb66958b491a73c5f307dfd5546b46d"
+    sha256 = "705c084cc8f96b7dfdceb5f5c2350f6473bd9d61f93c010c7bfd4a2566541016"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_april.tar.gz"
 
 [blue_marble_regular_august]
@@ -11,7 +11,7 @@ git-tree-sha1 = "8b5eb2b6b0f39f1e06c664bdda72ffbde18cf031"
 lazy = true
 
     [[blue_marble_regular_august.download]]
-    sha256 = "0f8a1fce47a43bbd6b4a3df2d7cb456ff875cc4fe4af5b3ad68bbcb7bf06dd37"
+    sha256 = "ff3494b377588dbd092af717515b35b15daeeaf0babf0f7d92926c62895f9e71"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_august.tar.gz"
 
 [blue_marble_regular_december]
@@ -19,7 +19,7 @@ git-tree-sha1 = "b65266a79411ef0402a002ba95a27ff4b4cd003a"
 lazy = true
 
     [[blue_marble_regular_december.download]]
-    sha256 = "1cb05710db1da5761effc9d57543bd0dbcbd95076ee2ece664d982ecd90adf3b"
+    sha256 = "c40419528ef1e0f02dd097416777d9faec10b91e436d44b3d671b543f17d2ea9"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_december.tar.gz"
 
 [blue_marble_regular_february]
@@ -27,7 +27,7 @@ git-tree-sha1 = "cb62a0c9f39e7061f7c31dff2106341970717cca"
 lazy = true
 
     [[blue_marble_regular_february.download]]
-    sha256 = "a2eb783a9f62b80b9d7f4343c4e2faa904ee0594c6832b8f82950c308710a818"
+    sha256 = "4e6a42df3a3f2217f2fefb0a47de00b12cee273c143be9e49daa944f1dccb62e"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_february.tar.gz"
 
 [blue_marble_regular_january]
@@ -35,7 +35,7 @@ git-tree-sha1 = "1782ff14b50c2796b2adc5f0ecdd1c8bbddb47f5"
 lazy = true
 
     [[blue_marble_regular_january.download]]
-    sha256 = "2d6d2e291809a0f3ad14396b2203ac9bac21595ed0cc1d8702b1bf79d8affc9d"
+    sha256 = "8704050907f75e3d8d50833cb904c06aa9d7a03b85595410dcfec3fed9f1ed6b"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_january.tar.gz"
 
 [blue_marble_regular_july]
@@ -43,7 +43,7 @@ git-tree-sha1 = "820df260905421646281722393b4d91133efd0b6"
 lazy = true
 
     [[blue_marble_regular_july.download]]
-    sha256 = "7a8119c7d1c5d15e476c4e2b9dd4483f47d8019e2c68443bb1cf1b63353b0f83"
+    sha256 = "fa9b57c5a0a38264bd6406eb902c1581bf7038049fba4761cd9797f362197dbc"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_july.tar.gz"
 
 [blue_marble_regular_june]
@@ -51,7 +51,7 @@ git-tree-sha1 = "b93ab3961ed862746b4e6095da67745735fc1a48"
 lazy = true
 
     [[blue_marble_regular_june.download]]
-    sha256 = "b611af064ea7a8e9c36b23dcafcc16b6266da7196632d153f36edf436bbb7b13"
+    sha256 = "2965e56cd2f99169ee21f43711383a61d55a4486cde5a171d1acfa58843c55f5"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_june.tar.gz"
 
 [blue_marble_regular_march]
@@ -59,7 +59,7 @@ git-tree-sha1 = "f355fd089eb2e09a3350ede91e395fad1d954020"
 lazy = true
 
     [[blue_marble_regular_march.download]]
-    sha256 = "4156001d68369c73a45687736949c272c488a0ec57171feae881df365ee69ba1"
+    sha256 = "4a9dc51cfb760ef15d8368280059375fdfdc3f375f86def32d544e107f7a9141"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_march.tar.gz"
 
 [blue_marble_regular_may]
@@ -67,7 +67,7 @@ git-tree-sha1 = "6a170fa2b7ac437cee7fbcc63fcef72e325f0648"
 lazy = true
 
     [[blue_marble_regular_may.download]]
-    sha256 = "0cd67975e6622a751ad47131af07dfce00a13495b2cdb645df5a33d4881eac42"
+    sha256 = "e021b802f5f450b8d56d941fdf159faa4d240eaa99c4390655d381647858bb7a"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_may.tar.gz"
 
 [blue_marble_regular_november]
@@ -75,7 +75,7 @@ git-tree-sha1 = "8faa1119724f813e620411cc9a6fc661704d3e78"
 lazy = true
 
     [[blue_marble_regular_november.download]]
-    sha256 = "fb5932b756277881537e4c4241799668b2118322c00047ac00c6545216d91ae0"
+    sha256 = "4e867798405b1ae81c1c9d467d14e748251ba7b831489ae8d0524c96ab74a184"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_november.tar.gz"
 
 [blue_marble_regular_october]
@@ -83,7 +83,7 @@ git-tree-sha1 = "7abc6d1d1220187944989fec268450e144331b86"
 lazy = true
 
     [[blue_marble_regular_october.download]]
-    sha256 = "3efe42b26b8be3434be85a678d4e0d1a4c878542a93e4285d649da7dbc2ddff0"
+    sha256 = "adea45bcac9381829baf58656d061f47c599119429c3de49af734becad7f1365"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_october.tar.gz"
 
 [blue_marble_regular_september]
@@ -91,7 +91,7 @@ git-tree-sha1 = "038b01377efa2265073ffb9ff30a4b0b8f012de6"
 lazy = true
 
     [[blue_marble_regular_september.download]]
-    sha256 = "d523c9137dac5eea04cc359564f41bd6a10e9f574c894301cfea906515707ee5"
+    sha256 = "a919ec7c6de0647c137ecc983145a9b2659bcd7fceadbd671e716faa79a8b524"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_regular_september.tar.gz"
 
 [blue_marble_topo_april]
@@ -99,7 +99,7 @@ git-tree-sha1 = "edc976da8992f7c84610f08262941ed867d0ed65"
 lazy = true
 
     [[blue_marble_topo_april.download]]
-    sha256 = "75411d5cda94a0d645c565050db01e43ad16084f8ce82debc1a22a3c205f7c98"
+    sha256 = "54609530b5cb4f0ec794bad6d67774baaa24ee7abe0cbbbe0da3b67bd6a08c82"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_april.tar.gz"
 
 [blue_marble_topo_august]
@@ -107,7 +107,7 @@ git-tree-sha1 = "8eb884c61efd172d8103fc7d75b48724c4c5df0c"
 lazy = true
 
     [[blue_marble_topo_august.download]]
-    sha256 = "de7510038c82dee728a55f909c0a39ea375370ab6b67305cbeb0d12071e36e6f"
+    sha256 = "1065ee1702e3d1310432236d0fc3322ee0575c8fedc22177c468bfb74b261878"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_august.tar.gz"
 
 [blue_marble_topo_bathy_april]
@@ -115,7 +115,7 @@ git-tree-sha1 = "bcedffa0be883e72390d45cad1a1243fa6817b2f"
 lazy = true
 
     [[blue_marble_topo_bathy_april.download]]
-    sha256 = "f6792d1e327d801d38f82b015829bc3990e89f1028f18084def50cc055feb8c9"
+    sha256 = "e53601620e5c39a013f3cec1ad6dc75d17d7970e83dd75d78c1add8175fbfd07"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_april.tar.gz"
 
 [blue_marble_topo_bathy_august]
@@ -123,7 +123,7 @@ git-tree-sha1 = "6b361886c86f62163dc3359fe7fd7ed36cdcfef7"
 lazy = true
 
     [[blue_marble_topo_bathy_august.download]]
-    sha256 = "dc83d864c8b691ad3b8d0de1990ba672ba09b7a7e6d4ea08a1bdf47d8fe7fb85"
+    sha256 = "5ab473907328044fd06e7280d21e761e3b39c61333ad4202224a4fb0a484dc62"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_august.tar.gz"
 
 [blue_marble_topo_bathy_december]
@@ -131,7 +131,7 @@ git-tree-sha1 = "4524bde965c51564de2b4f34ebba465c0551a047"
 lazy = true
 
     [[blue_marble_topo_bathy_december.download]]
-    sha256 = "4a7849380b6ee3fc29bb99ea4e3b191349c1e83b6ff3e0e27aa10ad77a238794"
+    sha256 = "659e51c2c9994001f165f5e6f078145d49c270e8945416d4e70356de49815c61"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_december.tar.gz"
 
 [blue_marble_topo_bathy_february]
@@ -139,7 +139,7 @@ git-tree-sha1 = "f1d8e656d1ff15fc34baf7de9cbb0a660b8f2822"
 lazy = true
 
     [[blue_marble_topo_bathy_february.download]]
-    sha256 = "962bbdc7efc0488771d88dabf247d47b18edaea79ddaa41aec1eb791f615ec6f"
+    sha256 = "54934a730d091dc66bf995ba783603701dfbc9279fd2dfceadd437b7399fa824"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_february.tar.gz"
 
 [blue_marble_topo_bathy_january]
@@ -147,7 +147,7 @@ git-tree-sha1 = "7f51abd376644826911d242434acb1c4e4e83bdc"
 lazy = true
 
     [[blue_marble_topo_bathy_january.download]]
-    sha256 = "daca0aeef182db1fa2b459813ef93e0d69bef9b8d0ff8c8b68f27104d3a0c2a5"
+    sha256 = "9d0dc9979a79261f4a48dde154dc1ebc7b0c45e4861a6c178023ac839da5f5ed"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_january.tar.gz"
 
 [blue_marble_topo_bathy_july]
@@ -155,7 +155,7 @@ git-tree-sha1 = "4e0c098101b004bbd653372bccfd192ff73b9747"
 lazy = true
 
     [[blue_marble_topo_bathy_july.download]]
-    sha256 = "60c6a73bfeb750c10b5324ac60e369ac467b16d5d7f2f3da92dd4311cf765ee2"
+    sha256 = "f4036836a79a40609cc5af642a156552daa1563e8ce1a48270b65469bf51f14e"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_july.tar.gz"
 
 [blue_marble_topo_bathy_june]
@@ -163,7 +163,7 @@ git-tree-sha1 = "2ddcc929ba03b59eff5c19b8ca5f605cbae38e6d"
 lazy = true
 
     [[blue_marble_topo_bathy_june.download]]
-    sha256 = "a17ab8e5a041c5fee219c89da9a8c78e4436227ff2fc70e441ad62e12c4d08a1"
+    sha256 = "89f8e497e7f3da7ba3e0498de38205405ef152043fc438d9cb0ce2acc33a859e"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_june.tar.gz"
 
 [blue_marble_topo_bathy_march]
@@ -171,7 +171,7 @@ git-tree-sha1 = "d0dcc107eaec83972c77984a5f86a6e789437dfb"
 lazy = true
 
     [[blue_marble_topo_bathy_march.download]]
-    sha256 = "1c0c48173f42b5d8a3dcad7b0105c352477596ed68159dac6336a20f4098a767"
+    sha256 = "1a661047fd0408717c2631187131bcdcd6c033b4844a4cf2ccf9472117f000e4"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_march.tar.gz"
 
 [blue_marble_topo_bathy_may]
@@ -179,7 +179,7 @@ git-tree-sha1 = "c91b27fdf1f0a8f61af67e05e5510cfca56df1f9"
 lazy = true
 
     [[blue_marble_topo_bathy_may.download]]
-    sha256 = "56bf48ecd110ac94a638aa2974c7eebb93a39789b6c2b078273cf632c1c6f16d"
+    sha256 = "01d18d716bfba9716eed05b450de1f303cc5b13c9e7a24b858a1ea3dc28fb9ca"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_may.tar.gz"
 
 [blue_marble_topo_bathy_november]
@@ -187,7 +187,7 @@ git-tree-sha1 = "9cc98705e6e58371ae91723e4f2d4e9e82150b2d"
 lazy = true
 
     [[blue_marble_topo_bathy_november.download]]
-    sha256 = "a925877a8d4e5c18a9fb7bf4343f023329263c2705f3a8d0dec9efb345f9c167"
+    sha256 = "8f328079ca537a55bc6e56750d4a87b8ca755ecaa1ac9763fc00d3b2d4485368"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_november.tar.gz"
 
 [blue_marble_topo_bathy_october]
@@ -195,7 +195,7 @@ git-tree-sha1 = "5b9db2fe3924ce2acecfaf52bffc41b485c28084"
 lazy = true
 
     [[blue_marble_topo_bathy_october.download]]
-    sha256 = "b64b04bc2f3de6963907b8d3e1b8a0f68e0d7cabba88ef6e4d42ff9f87b91a47"
+    sha256 = "bf91e5da1acaa5f10aee0955af3675aba28c88c2abc7e3a8a15d827984c23a69"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_october.tar.gz"
 
 [blue_marble_topo_bathy_september]
@@ -203,7 +203,7 @@ git-tree-sha1 = "3aed136f0332653dec325064237cf1ce91018c40"
 lazy = true
 
     [[blue_marble_topo_bathy_september.download]]
-    sha256 = "c66129bbdfc04242237c972801aca7b4dc68126602d2dfeae72801309ed3469d"
+    sha256 = "6629d7579f0f148c7809426d36ee6081dfaffe30582adca58654c5d05b7d1bf2"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_bathy_september.tar.gz"
 
 [blue_marble_topo_december]
@@ -211,7 +211,7 @@ git-tree-sha1 = "24baa33c8bb752323e1283a6f1d3c5140db054d3"
 lazy = true
 
     [[blue_marble_topo_december.download]]
-    sha256 = "a9e831c9cff24e65e1da4f55d6847109322e5b380cc7cbebf413440962ff109c"
+    sha256 = "c6823324c9f76d752ce938fa0a49dbf336891850bff57632f5c90901122fe053"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_december.tar.gz"
 
 [blue_marble_topo_february]
@@ -219,7 +219,7 @@ git-tree-sha1 = "e73f37aa7eaf8e81a42fee792514b1a34b7851aa"
 lazy = true
 
     [[blue_marble_topo_february.download]]
-    sha256 = "c3e3c85f1261c544010541859a45c26709613daa60caa7ffba81718eb72528f2"
+    sha256 = "58bed769f39fc145fdda304c45fe171ca12c94085e9eb012cd516ee5dbf45804"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_february.tar.gz"
 
 [blue_marble_topo_january]
@@ -227,7 +227,7 @@ git-tree-sha1 = "4d70d08d7212aed17ae5611c523983ebdceac482"
 lazy = true
 
     [[blue_marble_topo_january.download]]
-    sha256 = "bbd4d2c57304d26bfc40fe7ab1eb4b11b75f37a1d01045c556d01f176db1f3a6"
+    sha256 = "49a8332585a340b553b3b390501a840cc79342da94500234da14b2062b4da00a"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_january.tar.gz"
 
 [blue_marble_topo_july]
@@ -235,7 +235,7 @@ git-tree-sha1 = "673c14fab4ba9777f17c881657eb6801414a8546"
 lazy = true
 
     [[blue_marble_topo_july.download]]
-    sha256 = "d9e1eebe428a7b1f4555f68ba37fb97b427210e6042f1ac162b1b8e3a391a82c"
+    sha256 = "03861a41b1cb71204ba79ff6dc5d19361b9984644155438ac77284e683dff5c8"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_july.tar.gz"
 
 [blue_marble_topo_june]
@@ -243,7 +243,7 @@ git-tree-sha1 = "0c804aa95f734905e8434dcf7c0c932349ab9650"
 lazy = true
 
     [[blue_marble_topo_june.download]]
-    sha256 = "76067ae626d298003c3ae0bf68075e0c72a3674893fdbe009a4240f6d967f7e7"
+    sha256 = "a8d4c799ee8ef9dea173e8d6127aaaa2965324ae54bd591d8462ab9d54d69bda"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_june.tar.gz"
 
 [blue_marble_topo_march]
@@ -251,7 +251,7 @@ git-tree-sha1 = "eb627e36f94096a02d42ac14d6d1cf411515b652"
 lazy = true
 
     [[blue_marble_topo_march.download]]
-    sha256 = "4bb8db74073a812fe5cbb7bad824e392a5ec813a01242b32bc22caa3d193a3ee"
+    sha256 = "99085c2bc1d4d76fcd2011c2cbac612f755ff8800cbee603203c452e4cbefb69"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_march.tar.gz"
 
 [blue_marble_topo_may]
@@ -259,7 +259,7 @@ git-tree-sha1 = "64081511b3f57f19af62d437f4da691cc47012c1"
 lazy = true
 
     [[blue_marble_topo_may.download]]
-    sha256 = "818e2cae311a44d6ce7fff06a4e227d40ec718ff5d160c32375163cb3d121b46"
+    sha256 = "77884419ce59f541fa47d0a07054121ec5203778facc2ecf59f1578e33a2ad28"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_may.tar.gz"
 
 [blue_marble_topo_november]
@@ -267,7 +267,7 @@ git-tree-sha1 = "24c4bb83f390d4319c4d39b416b29a4b05d7a4c9"
 lazy = true
 
     [[blue_marble_topo_november.download]]
-    sha256 = "55d93702655baf50785682912e59572ea46d494303e1272012f529c85d8217b0"
+    sha256 = "bcf03a73217c5567b01931fdda25998b904f1b545de415c90c9c7bb896723def"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_november.tar.gz"
 
 [blue_marble_topo_october]
@@ -275,7 +275,7 @@ git-tree-sha1 = "4af63beb641cd37b8daf6376ae2bf80238efb865"
 lazy = true
 
     [[blue_marble_topo_october.download]]
-    sha256 = "7a47f06b29e6a7213089b549a75e664acfab0e7738c0e4aec9531885c76c6d5e"
+    sha256 = "22b8136d0c84fcf35f5d7388dec2ca11f26ff51073e4e4e63bd99f8d4f67ef1e"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_october.tar.gz"
 
 [blue_marble_topo_september]
@@ -283,28 +283,28 @@ git-tree-sha1 = "82441ca52ab3011e1fab57d09c2203d6aea22f29"
 lazy = true
 
     [[blue_marble_topo_september.download]]
-    sha256 = "e50e3481f1497de4814d92c8d2f4d3ef0fea8608dd0555d63b36e1cf10e1c390"
+    sha256 = "dc7df9285c3f55d93b690f0e3a0e1010053c0417efd21d352fc437479f13853c"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/blue_marble_topo_september.tar.gz"
 
 [ne_10m_admin_0_countries]
 git-tree-sha1 = "8e53682adc87fb8f348111a7531f5bf42d10e1b5"
 
     [[ne_10m_admin_0_countries.download]]
-    sha256 = "3663d58bff7916fbdab323457e1dd09b7c1a0be9a241f72f19a17a67bdfbf275"
+    sha256 = "518b107ee2507cfb1633ffb1ba4512b8866129928c69e228befcb19e8ae0519c"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_10m_admin_0_countries.tar.gz"
 
 [ne_10m_coastline]
 git-tree-sha1 = "d63e45897c2fe0d6ae75a50b406f2f8cc794067b"
 
     [[ne_10m_coastline.download]]
-    sha256 = "8e202e7c8e9112ad8c37e29031893218753bc13163a905c834ac92abb5e4c32b"
+    sha256 = "bc6c42407bc8218235ba9422c08bb1d5837db4600471e3fa7709e9d58a550ce0"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_10m_coastline.tar.gz"
 
 [ne_10m_land]
 git-tree-sha1 = "8b7f3f99157c2a171d4b601c6abd19c5ef4aad12"
 
     [[ne_10m_land.download]]
-    sha256 = "c3616d8ca12418574cf2f41372ec3477c430ffaad4bdb80091f556ab954bde60"
+    sha256 = "9a1844648a4505f85016a667fe5bdca4357af8b700e295b6319368b5c2c1b23a"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_10m_land.tar.gz"
 
 [ne_10m_populated_places]
@@ -312,63 +312,63 @@ git-tree-sha1 = "4e1f1bc9bd8d52c74bf83d00847e08b11a48a7bb"
 lazy = true
 
     [[ne_10m_populated_places.download]]
-    sha256 = "fb9caa20c02f274047b60166184513e12cebd97d8450b8b39d0ef8c7cd7df9ce"
+    sha256 = "92a375710cb3e7297c70ca3deddc579baa695efc3458191ca1ab1c64f609bcec"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_10m_populated_places.tar.gz"
 
 [ne_110m_admin_0_countries]
 git-tree-sha1 = "6ea149eccce8f1986d43b9f58ec51811a88363c0"
 
     [[ne_110m_admin_0_countries.download]]
-    sha256 = "f89b87d6d7d2616bb9b9069602721d22738caa0918e4630b56fbd7f518c69476"
+    sha256 = "7c452c0d014fd57db8dfffe458c779c3f5fbaf08f3cf87c4af888dc0616317fb"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_110m_admin_0_countries.tar.gz"
 
 [ne_110m_coastline]
 git-tree-sha1 = "1537a97c520465041a08ccafb0bde37cc7fc0677"
 
     [[ne_110m_coastline.download]]
-    sha256 = "7a19666d0bcc1964e3beca2a2020fcbfc28008a721ed34db30f2d5c3887735a8"
+    sha256 = "20c5d9ec5c09a20c65139cdbbe8d5c82426a5a5ad3d6cbdc31e5d8b37710d585"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_110m_coastline.tar.gz"
 
 [ne_110m_land]
 git-tree-sha1 = "898eab259cafb0fcf466a837e6656f9e56e654f8"
 
     [[ne_110m_land.download]]
-    sha256 = "ac362ea6d5dd2dd6a76c8a940f691fa03cd13d17751a31aad38e641b4b9b4c6a"
+    sha256 = "58a56db7669f82768f9fd5553a1634c78970067d572f3d3b9c0b5caa3582a4b1"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_110m_land.tar.gz"
 
 [ne_110m_populated_places]
 git-tree-sha1 = "aa1575188680b1236cedea6399362a8814ab297b"
 
     [[ne_110m_populated_places.download]]
-    sha256 = "61b45ff3aec56589f8c3df086b676c8522be06e0eb909518e217fb2193e916e9"
+    sha256 = "ef4c059d227310953ffe15c06f27f2c7de6a111a237ccb38ff467b529ca34115"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_110m_populated_places.tar.gz"
 
 [ne_50m_admin_0_countries]
 git-tree-sha1 = "f40389879f8d1525fd9efa1ba6d21e60ab085419"
 
     [[ne_50m_admin_0_countries.download]]
-    sha256 = "d77f9423822e2aea6cf223b006f4d4cf50a407a61056b11567017df23d414442"
+    sha256 = "94508974ed04a0d3b6e0bbd69f9c98ce186fc123eb065ee05121e2a27c85c415"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_50m_admin_0_countries.tar.gz"
 
 [ne_50m_coastline]
 git-tree-sha1 = "415eac65b4305428aa6d904c9e2dbf0932f36213"
 
     [[ne_50m_coastline.download]]
-    sha256 = "ef416ec380bdf92955ef80eaad5624ff629bd5f80709efa461de6544b98db8d2"
+    sha256 = "fbd717d292e383e28fb5ab319f0270bab7a7aab3e3d73405508fc5031c9f2e54"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_50m_coastline.tar.gz"
 
 [ne_50m_land]
 git-tree-sha1 = "ba7aefcecc2124ebefaf3bbe2b1fa669f8895eac"
 
     [[ne_50m_land.download]]
-    sha256 = "2af0bef5482d2dcdd1889a3c40f25c5ae45cc8a704d7da88882e6d22f6f1b818"
+    sha256 = "2da377fadd2b36a76cda41b7d67171d40b1b7f03511eb5599978f09b6cfeb4f2"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_50m_land.tar.gz"
 
 [ne_50m_populated_places]
 git-tree-sha1 = "a353e69ad47b2d3b3ec20711be765f29e5679cc6"
 
     [[ne_50m_populated_places.download]]
-    sha256 = "ae8e669aab10e24a1d299b2c8525defc08c663aa0c9388a3011383048a1eb284"
+    sha256 = "fe2ecd6c9edc95341861753077fd7044b24d386a0bd186c2543697324934f53f"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/ne_50m_populated_places.tar.gz"
 
 [skymap]
@@ -376,5 +376,5 @@ git-tree-sha1 = "069c69ca948deb29376f478c394cba5de540814e"
 lazy = true
 
     [[skymap.download]]
-    sha256 = "10a9a2cebb78e3650be1231c36c2bc3c29c658711e72aa04471ef422580b915d"
+    sha256 = "82fdf4023c8d9619126bc95d0c41f919f47b392455a46c77c2f8cd661b6fdec2"
     url = "https://github.com/MakieOrg/GeoMakieArtifacts.jl/releases/download/v1.0.0/skymap.tar.gz"

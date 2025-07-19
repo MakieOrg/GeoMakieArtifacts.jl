@@ -1,0 +1,6 @@
+[deps]
+ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+SHA = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"

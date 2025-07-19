@@ -10,7 +10,6 @@ Pkg.activate(dirname(@__DIR__))
 
 using Pkg.Artifacts: bind_artifact!, create_artifact
 using TOML
-using Tar
 using SHA
 
 const SCRIPT_DIR = @__DIR__
@@ -45,10 +44,14 @@ function create_artifact_tarball(data_dir::String, artifact_name::String)
         end
     end
     
-    # Create tarball in tarballs directory
+    # Create compressed tarball using command line tar
     mkpath(TARBALLS_DIR)
     tarball_path = joinpath(TARBALLS_DIR, "$(artifact_name).tar.gz")
-    Tar.create(artifact_temp, tarball_path)
+    
+    # Use tar command to create compressed tarball
+    # -c = create, -z = gzip compress, -f = file
+    # -C changes to temp directory so paths in tarball are relative
+    run(`tar -czf $tarball_path -C $TEMP_DIR $artifact_name`)
     
     return tarball_path
 end

@@ -10,7 +10,7 @@
 # - Artifacts.toml must be updated with final URLs
 
 using Pkg
-Pkg.activate(dirname(@__DIR__))
+Pkg.activate((@__DIR__))
 
 using TOML
 
