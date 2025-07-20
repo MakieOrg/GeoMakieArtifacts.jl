@@ -9,6 +9,7 @@ using Pkg
 Pkg.activate((@__DIR__))
 
 using Pkg.Artifacts: bind_artifact!, create_artifact
+using Pkg.GitTools: tree_hash
 using TOML
 using SHA
 
@@ -111,6 +112,8 @@ function add_local_artifact!(
         # Extract the tarball we just created into the artifact directory
         # This ensures the artifact content matches exactly what will be downloaded
         run(`tar -xzf $tarball_path -C $artifact_dir --strip-components=1`)
+        # Compute the git-tree-sha1 using Pkg.GitTools.tree_hash
+        return Base.SHA1(tree_hash(artifact_dir))
     end
     
     # Get GitHub URL for this artifact
