@@ -2,6 +2,7 @@ name = "GeoMakieArtifacts"
 uuid = "c06dcbe2-c11f-4421-b8ce-2adf73295f27"
 authors = ["Anshul Singhvi <anshulsinghvi@gmail.com> and contributors"]
 version = "1.0.0"
+description = "Digital assets and artifacts for GeoMakie.jl, including large images."
 
 [deps]
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"

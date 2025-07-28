@@ -45,6 +45,8 @@ for filepath in filepaths
     write(joinpath(dir, "ATTRIBUTION.md"), """
     Public domain.
     Source: Free vector and raster map data @ naturalearthdata.com.
+
+    Natural Earth
     """)
 end
 
@@ -101,6 +103,14 @@ topo_urls = [
     "https://eoimages.gsfc.nasa.gov/images/imagerecords/74000/74518/world.topo.200412.3x5400x2700.png",
 ]
 
+NASA_ATTRIBUTION = """
+Public domain.
+Credit: NASA/Visible Earth.
+Only the NASA credit is required.
+
+NASA/Visible Earth
+"""
+
 @showprogress for (month_idx, month_name) in enumerate(months)
     topo_dir = datadir("blue_marble_topo_$(month_name)")
     topo_bathy_dir = datadir("blue_marble_topo_bathy_$(month_name)")
@@ -114,24 +124,21 @@ topo_urls = [
     regular_url = regular_urls[month_idx]
 
     resp = HTTP.get(topo_url)
-    write(joinpath(topo_dir, basename(topo_url) * ".png"), resp.body)
+    write(joinpath(topo_dir, "image" * ".png"), resp.body)
     sleep(0.3)
     resp = HTTP.get(topo_bathy_url)
-    write(joinpath(topo_bathy_dir, basename(topo_bathy_url) * ".png"), resp.body)
+    write(joinpath(topo_bathy_dir, "image" * ".png"), resp.body)
     sleep(0.3)
     resp = HTTP.get(regular_url)
-    write(joinpath(regular_dir, basename(regular_url) * ".png"), resp.body)
+    write(joinpath(regular_dir, "image" * ".png"), resp.body)
 
     touch(joinpath(topo_dir, ".lazy"))
     touch(joinpath(topo_bathy_dir, ".lazy"))
     touch(joinpath(regular_dir, ".lazy"))
 
-    write(joinpath(topo_dir, "ATTRIBUTION.md"), """
-    Public domain.
-    Credit: NASA/Visible Earth.
-    Only the NASA credit is required.
-    """
-    )
+    write(joinpath(topo_dir, "ATTRIBUTION.md"), NASA_ATTRIBUTION)
+    write(joinpath(topo_bathy_dir, "ATTRIBUTION.md"), NASA_ATTRIBUTION)
+    write(joinpath(regular_dir, "ATTRIBUTION.md"), NASA_ATTRIBUTION)
     
 end
 
@@ -153,9 +160,8 @@ Copyright: ESO/S. Brunier
 Per the terms of the license, please include attribution that is clearly visible 
 whenever this image is used.
 The string is:
-```
+
 ESO/S. Brunier
-```
 """)
 
 #=

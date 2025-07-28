@@ -22,8 +22,11 @@ Pkg.add("GeoMakieArtifacts")
 ```julia
 using GeoMakieArtifacts
 
-# Get the path to an artifact
-path = geomakie_artifact("natural_earth")
+# Get the path to an artifact dir, that has some files in it
+path = geomakie_artifact_dir("blue_marble_regular_january")
+
+# Get the attribution info for an artifact, as a short string
+attribution = get_attribution("blue_marble_regular_january")
 
 # List all available artifacts
 artifacts = list_artifacts()
