@@ -57,11 +57,6 @@ function create_artifact_tarball(data_dir::String, artifact_name::String)
     return tarball_path
 end
 
-# Calculate SHA256 of file
-function calculate_sha256(filepath::String)
-    return bytes2hex(sha256(read(filepath)))
-end
-
 # Get version from Project.toml
 function get_project_version()
     project = TOML.parsefile(PROJECT_TOML)
@@ -101,9 +96,7 @@ function add_local_artifact!(
     data_dir::String,
     tarball_path::String;
     force::Bool = false
-)
-    sha256 = calculate_sha256(tarball_path)
-    
+)    
     # Check for .lazy file to determine if artifact should be lazy
     is_lazy = has_lazy_marker(data_dir)
     
@@ -115,7 +108,9 @@ function add_local_artifact!(
         # Compute the git-tree-sha1 using Pkg.GitTools.tree_hash
         return Base.SHA1(tree_hash(artifact_dir))
     end
-    
+
+    sha256 = Pkg.Artifacts.archive_artifact(git_tree_sha1, tarball_path)
+
     # Get GitHub URL for this artifact
     version = get_project_version()
     repo = get_repo_info()
